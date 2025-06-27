@@ -1,2 +1,26 @@
-# phishcheck
-PhishCheck is a Python-based script that performs basic security analysis of websites. It checks for HTTPS usage, domain age, IP location, missing HTTP security headers, open directories, and allows simple brute-force testing on login pages. Built for educational and ethical penetration testing purposes.
+# PhishCheck
+
+PhishCheck is a simple Python-based tool for analyzing the basic security posture of a website.  
+It was developed for educational purposes and ethical penetration testing.
+
+---
+
+## 🔧 Features
+
+- Domain age and WHOIS information lookup  
+- IP address and geolocation detection  
+- HTTPS usage check  
+- Suspicious keyword detection in URL  
+- Detection of missing HTTP security headers  
+- Open directory discovery (e.g., /admin, /backup, /uploads)  
+- Basic brute-force login testing using common username/password combinations and multiple parameter variations
+
+---
+
+## ⚙️ Installation
+
+1. Make sure Python 3.x is installed on your system  
+2. Install the required Python libraries:
+
+```bash
+pip install requests python-whois
