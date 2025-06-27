@@ -24,3 +24,4 @@ It was developed for educational purposes and ethical penetration testing.
 
 ```bash
 pip install requests python-whois
+![image alt](https://github.com/inandemir/phishcheck/blob/a75f1df5c35c5757978844223477951d8cd3d531/proje.PNG)
